@@ -14,5 +14,7 @@ let files = fs.readdirSync(path.join(__dirname, 'out'));
 for (const file of files) {
     if(contracts.includes(file)){
         console.log(file);
+        let compiled = JSON.parse(fs.readFileSync(path.join(__dirname, 'out', file, file.split('.')[0] +".json")).toString());
+        console.log(compiled.abi);
     }
 }
