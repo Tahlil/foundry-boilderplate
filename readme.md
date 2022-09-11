@@ -9,3 +9,12 @@ https://rustup.rs/
 cargo install --git https://github.com/foundry-rs/foundry foundry-cli anvil --bins --locked
 ```
 
+### Instruction
+- Compile without generating the abi:
+```
+npm run compile
+```
+- Compile and also generate the abi:
+```
+npm run compile:abi
+```
