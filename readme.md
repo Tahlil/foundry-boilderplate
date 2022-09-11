@@ -1,5 +1,5 @@
 # Foundry boilerplate
-Foundry boilerplate for developing, testing and deploying smart contract in solidity. Added `ts` support for giving flexibility deploying the contract(s).
+Foundry boilerplate for developing, testing and deploying smart contract in solidity. Added `js` support for giving flexibility deploying and compiling the contract(s).
 
 ### Installation
 - Install Rust:
