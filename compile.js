@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+let abiDirectory = path.join(__dirname, 'abis')
+if (!fs.existsSync(abiDirectory)) fs.mkdirSync(abiDirectory,'0777', true);
 let contractFiles = fs.readdirSync(path.join(__dirname, 'src'));
 let contracts = []
 for (const file of contractFiles) {
