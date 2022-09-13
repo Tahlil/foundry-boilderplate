@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 
-contract Counter {
+contract Protocol {
     uint256 public number;
 
     constructor(){
